@@ -20,6 +20,7 @@ body {
 }
 
 .logo img {
+  margin: 30px;
   width: 150px;
 }
 
@@ -28,6 +29,7 @@ body {
 }
 
 .nav {
+  margin: 10px;
   display: flex;
   gap: 20px;
   list-style: none;
@@ -121,7 +123,7 @@ body {
 }
   
 .feature__text {
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
 }
   
@@ -134,7 +136,7 @@ body {
   gap: 10px;
 }
   
-  .footer__copyright {
+.footer__copyright {
   font-size: 14px;
   padding: 10px;
 }
@@ -268,6 +270,7 @@ body {
   color: #28282B;
 }
 
+
 @media (max-width: 768px) {
   .nav {
   flex-direction: column;
@@ -298,28 +301,28 @@ h1, h2,
 }
 
 .booking {
-  margin: 20px 10px;   /* Reduce the margin for smaller screens */
+  margin: 20px 10px;
   padding: 15px;
 }
 
 .booking__title {
-  font-size: 20px;   /* Reduce font-size slightly for smaller screens */
+  font-size: 20px;
 }
 
 .booking__label,
 .booking__input,
 .booking__select {
-  margin: 5px;       /* Reduce margin for smaller screens */
+  margin: 5px;
 }
 
 .booking__btn {
-  width: 100%;      /* Make button full width for better touch experience */
-  margin-left: 0;   /* Reset margin-left to 0 to center it */
+  width: 100%;
+  margin-left: 0;
   margin-right: 0;
 }
 
 .input-wrapper {
-  margin-top: 5px;  /* Reduce margin-top for smaller screens */
+  margin-top: 5px;
   margin-right: 10px;
 
 }
@@ -329,7 +332,7 @@ h1, h2,
 }
 
 .image-grid__image {
-  width: 100%;  /* smaller size */
+  width: 100%;
   margin-bottom: 1rem;
 }
 .logo {
