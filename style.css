@@ -332,4 +332,12 @@ h1, h2,
   width: 100%;  /* smaller size */
   margin-bottom: 1rem;
 }
+.logo {
+  margin-left: 10px;
+  float: left;
+}
+.nav {
+  margin-top: -15px;
+  float: right;
+}
 }
