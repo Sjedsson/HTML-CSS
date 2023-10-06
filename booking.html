@@ -21,7 +21,7 @@
     </header>
 
     <section class="booking">
-        <h1 class="booking__title">Book Your Trip</h1>
+        <h1 class="booking__title">Book Your Hotel</h1>
 
         <form class="booking__form" action="/submit" method="post">
 
@@ -37,7 +37,11 @@
                 </article>
 
                 <article class="input-wrapper">
-                    <label for="date" class="booking__label">Travel Date:</label>
+                    <label for="date" class="booking__label">Check In:</label>
+                    <input type="date" id="date" name="date" class="booking__input" required>
+                </article>
+                <article class="input-wrapper">
+                    <label for="date" class="booking__label">Check Out:</label>
                     <input type="date" id="date" name="date" class="booking__input" required>
                 </article>
             </section>
@@ -55,7 +59,7 @@
                 </article>
 
             </section>
-            <button type="submit" class="booking__btn">Book Now</button>
+            <button type="submit" class="booking__btn">Search Room</button>
         </form>
     </section>
     <footer class="footer">
